@@ -6,6 +6,7 @@
 //  Copyright © 2020 Дубынин Семён. All rights reserved.
 //
 
+
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
@@ -50,4 +51,3 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
 }
-

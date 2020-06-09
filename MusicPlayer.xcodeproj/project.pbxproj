@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		891BB202248F6FBF00385D87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891BB201248F6FBF00385D87 /* AppDelegate.swift */; };
-		891BB204248F6FBF00385D87 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891BB203248F6FBF00385D87 /* SceneDelegate.swift */; };
-		891BB206248F6FBF00385D87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891BB205248F6FBF00385D87 /* ViewController.swift */; };
 		891BB209248F6FBF00385D87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 891BB207248F6FBF00385D87 /* Main.storyboard */; };
 		891BB20B248F6FC200385D87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 891BB20A248F6FC200385D87 /* Assets.xcassets */; };
 		891BB20E248F6FC200385D87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 891BB20C248F6FC200385D87 /* LaunchScreen.storyboard */; };
+		891BB218248F70D600385D87 /* GenreButtonScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891BB217248F70D500385D87 /* GenreButtonScreen.swift */; };
+		89841E70248F84E400003B53 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89841E6F248F84E400003B53 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		891BB1FE248F6FBF00385D87 /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		891BB201248F6FBF00385D87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		891BB203248F6FBF00385D87 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		891BB205248F6FBF00385D87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		891BB208248F6FBF00385D87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		891BB20A248F6FC200385D87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		891BB20D248F6FC200385D87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		891BB20F248F6FC200385D87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		891BB217248F70D500385D87 /* GenreButtonScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreButtonScreen.swift; sourceTree = "<group>"; };
+		89841E6F248F84E400003B53 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +56,9 @@
 		891BB200248F6FBF00385D87 /* MusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				891BB217248F70D500385D87 /* GenreButtonScreen.swift */,
 				891BB201248F6FBF00385D87 /* AppDelegate.swift */,
-				891BB203248F6FBF00385D87 /* SceneDelegate.swift */,
-				891BB205248F6FBF00385D87 /* ViewController.swift */,
+				89841E6F248F84E400003B53 /* SceneDelegate.swift */,
 				891BB207248F6FBF00385D87 /* Main.storyboard */,
 				891BB20A248F6FC200385D87 /* Assets.xcassets */,
 				891BB20C248F6FC200385D87 /* LaunchScreen.storyboard */,
@@ -138,9 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				891BB206248F6FBF00385D87 /* ViewController.swift in Sources */,
 				891BB202248F6FBF00385D87 /* AppDelegate.swift in Sources */,
-				891BB204248F6FBF00385D87 /* SceneDelegate.swift in Sources */,
+				891BB218248F70D600385D87 /* GenreButtonScreen.swift in Sources */,
+				89841E70248F84E400003B53 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
